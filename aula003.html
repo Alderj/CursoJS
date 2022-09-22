@@ -7,7 +7,7 @@
 
     <style>
         body{
-            background-color: rgb(105, 105, 173);
+            background-color: #009988;
             color: white;
             font: normal 20pt arial;
             text-align: center;
@@ -26,11 +26,9 @@
 </head>
 <body>
     
-    <h1>Exemplo de JavaScript 003</h1>
-    <p>Script  1: Irá perguntar o nome</p>
-    <p>Script  2: Irá retornar na tela quantas letras tem o nome</p>
-    <p>Script  3: Irá retornar o nome na tela com todas as letras maiúsculas</p>
-    <p>Script  4: Irá retornar o nome na tela com todas as letras minúsculas</p>
+  
+    <p>Aqui neste exemplo você digitou seu primeiro nome,<br>o JavaScript contou a quantidade de letras que seu primeiro nome possui,<br>e retornou também seu primeiro nome todo em letras maiúsculas<br>e depois seu nome todo em letras minúsculas.</p>
+    
 
     <br><br>
 
@@ -38,9 +36,9 @@
 
     <script>
         var nome = window.prompt('Digite apenas seu primeiro nome')
-        document.write(`Olá ${nome}! Seu nome tem ${nome.length} letras. <br>`) // conta quantas letras tem a palavra
-        document.write(`Seu nome em Letras Maiúsculas é ${nome.toLocaleUpperCase()}<br>`) // coloca tudo em letras maisculas
-        document.write(`Seu nome em Letras Minúsculas é ${nome.toLocaleLowerCase()}<br>`) // coloca tudo em letras minusculas
+        document.write(`Olá ${nome}! Seu nome tem ${nome.length} letras. <br><br>`) // conta quantas letras tem a palavra
+        document.write(`Seu nome em Letras Maiúsculas é ${nome.toLocaleUpperCase()}<br><br>`) // coloca tudo em letras maisculas
+        document.write(`Seu nome em Letras Minúsculas é ${nome.toLocaleLowerCase()}<br><br>`) // coloca tudo em letras minusculas
     </script>    
 </body>
 </html>
